@@ -68,9 +68,7 @@ body {
     font-weight: 500;
 }
 
-/* .active .item__icon i {
-    transform: rotate(180deg);
-} */
+
 
 .active .item__question {
     font-weight: 500;
@@ -86,11 +84,12 @@ body {
     opacity: 0.8;
 }
 
-
-
 .hide-text{
     max-height: 0;
+    transition: 1s;
 }
-.hide-arrow{
-    display: none;
+
+.rotate-arrow{
+    transform: rotate(180deg);
+    transition: 1s;
 }
